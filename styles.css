@@ -1,0 +1,50 @@
+html {
+    font-size: 10px;
+}
+
+body, html {
+    background-image: url('./assets/images/drDreBackground.jpeg');
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    height: 100vh
+}
+
+.keysRack {
+    min-height: 60vh;
+    align-items: center;
+
+}
+
+.keys {
+    display: flex;
+    justify-content: center;
+}
+
+.key {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.3rem;
+    padding: .5rem .5rem;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.header {
+    color: white;
+    font-size: 2em;
+    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.4);
+}
